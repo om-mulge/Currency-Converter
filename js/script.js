@@ -45,7 +45,7 @@ const updateExchangeRate = async () => {
     msg.innerText = `${amtVal} ${fromCurr.value} = ${finalAmount} ${toCurr.value}`;
 };
 
-// Update flag of country
+// Update flag of country...
 const updateFlag = (element) => {
     let currCode = element.value;
     let countryCode = countryList[currCode];
